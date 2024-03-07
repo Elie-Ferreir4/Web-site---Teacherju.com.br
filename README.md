@@ -1,2 +1,12 @@
-# Web-site---Teacherju.com.br
-Site desenvolvido para professora de ingles - hospedado e registrado
+# Web-site-Teacherju.com.br
+
+<a> www.Teacherju.com.br <a/>
+
+Técnologias usadas
+    HTML <br/>
+    CSS <br/>
+    JavaScript <br/>
+    Bootstrap <br/>
+    Font Awesome <br/>
+    Google Fonts <br/>
+    jQuery <br/>
