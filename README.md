@@ -6,7 +6,7 @@
 
 Descrição: Este site foi desenvolvido com o intuito de aprender de forma autodidata a configurar os apontamentos de DNS e domínio. O site está hospedado no Netlify.
 
-Técnologias usadas <br/>
+Técnologias usadas: <br/>
     HTML <br/>
     CSS <br/>
     JavaScript <br/>
