@@ -1,0 +1,314 @@
+/*
+ * Estilo do site Teacher Ju
+ * Autor: Jamilton Damasceno
+ */
+
+/* Importação de fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+
+/* Layout */
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+/* Fundo do corpo */
+body {
+	background: url(../imagens/pexels-anil-sharma-15789651.jpg),
+				url(../imagens/ruido.png),
+				linear-gradient(50deg,#fefefe,#f826d2);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Estilos da barra de navegação */
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+/* Estilos da capa */
+.capa {
+	text-align: center;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+	background: #edaaea;
+}
+
+.btn-roxo:hover {
+	background: #fa5d45;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+/* Estrutura dos conteúdos */
+.caixa {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos {
+	background: linear-gradient(0deg,rgb(255, 194, 133),rgb(143, 158, 189));
+	opacity: 92%;
+}
+
+#recursos {
+	color: white;
+}
+
+#servicos h2, h3 {
+	color: rgb(254, 74, 104);
+	color: rgb(254, 74, 104);
+	font-family: "Dancing Script", cursive;
+}
+
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
+
+.albuns {
+	padding: 10px 0;
+}
+
+.rotacionar {
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+/* Rodapé */
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+
+/* Tipografia */
+h1 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+/* Estilos das redes sociais */
+.social-icons {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	display:flex;
+	margin-top:250px;
+	padding:0;
+}
+
+.social-icons li {
+	list-style:none;
+	margin:0 5px;
+}
+
+.social-icons li a .fab {
+	font-size: 40px;
+	color: #262626;
+	line-height:80px;
+	transition: .5s;
+	padding-right: 14px;
+}
+
+.social-icons li a .far {
+	font-size: 40px;
+	color: #262626;
+	line-height:80px;
+	transition: .5s;
+	padding-right: 14px;
+}
+
+.social-icons li a span {
+	padding:0;
+	margin:0;
+	position:absolute;
+	top: 30px;
+	color: #262626;
+	letter-spacing: 4px;
+	transition: .5s;
+}
+
+.social-icons li a {
+	text-decoration: none;
+	display:absolute;
+	display:block;
+	width:210px;
+	height:80px;
+	background: #fff;
+	text-align:left;
+	padding-left: 20px;
+	transform: rotate(-30deg) skew(25deg) translate(0,0);
+	transition:.5s;
+	box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+
+.social-icons li a:before {
+	content: '';
+	position: absolute;
+	top:10px;
+	left:-20px;
+	height:100%;
+	width:20px;
+	background: #b1b1b1;
+	transform: .5s;
+	transform: rotate(0deg) skewY(-45deg);
+}
+
+.social-icons li a:after {
+	content: '';
+	position: absolute;
+	bottom:-20px;
+	left:-10px;
+	height:20px;
+	width:100%;
+	background: #b1b1b1;
+	transform: .5s;
+	transform: rotate(0deg) skewX(-45deg);
+}
+
+.social-icons li a:hover {
+	transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+	box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+
+.social-icons li:hover .fab {
+	color:#E4405F;
+}
+
+.social-icons li:hover .far {
+	color:#092daf;
+}
+
+.social-icons li:hover span {
+	color:#00d5ff;
+}
+
+/* Media queries para diferentes tamanhos de tela */
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	#some {
+		display: none;
+	}
+	#cell1 {
+		margin-left: 0px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#some {
+		display: none;
+	}
+	#cell1 {
+		margin-left: 0px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	#some {
+		display: none;
+	}
+	#cell1 {
+		margin-left: 0px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* Adicione estilos específicos se necessário */
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	/* Adicione estilos específicos se necessário */
+}
