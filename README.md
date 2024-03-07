@@ -1,6 +1,6 @@
 # Web-site-Teacherju.com.br
 
-<a> www.Teacherju.com.br <a/>
+<a> www.teacherju.com.br <a/>
 
 Técnologias usadas
     HTML <br/>
